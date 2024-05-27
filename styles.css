@@ -1,0 +1,108 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ffffff;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    font-size: 2.5vw;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 10%;
+}
+
+body {
+  background-color: #333647;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+.name-border {
+  border-bottom: 4mm ridge #3498db;
+  width: 40%;
+}
+h2 {
+  font-size: 3em;
+}
+
+.intro {
+  color: #3498db;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #838794;
+}
+
+header {
+  background-color: #333647;
+  width: 100%;
+  height: 10%;
+  position: fixed;
+}
+
+nav {
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav p {
+  font-size: 4.5vh;
+  padding: 20px;
+}
+
+section {
+  height: 80vh;
+  padding: 7%;
+}
+
+section:nth-of-type(1) {
+  background-color: #252734;
+  padding-top: 20%;
+}
+
+section:nth-of-type(3) {
+  background-color: #252734;
+}
+
+.left {
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  height: 100%;
+  width: 50%;
+}
+
+.icon {
+  margin-top: 50px;
+  height: 40px;
+  width: 40px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.project-tile {
+  border: 3px solid white;
+  background-color: #252734;
+  height: 20vh;
+  width: 35vw;
+}
+
+img {
+  max-width: 35vw;
+}
